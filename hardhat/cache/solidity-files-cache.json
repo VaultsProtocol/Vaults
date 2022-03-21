@@ -1,0 +1,743 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/BaseVault.sol": {
+      "lastModificationDate": 1647835430605,
+      "contentHash": "6fc052fe01f323f0a0619c1c65fd8748",
+      "sourceName": "contracts/BaseVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./tokens/ERC721.sol",
+        "./tokens/ERC20.sol",
+        "./interfaces/IStrategy.sol",
+        "./BasicMetaTransaction.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "BaseVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/tokens/ERC721.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "f1ee1a7c522014b2a677bce869c3529b",
+      "sourceName": "contracts/tokens/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/tokens/ERC20.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "1e7ddc892bc5853614f0439bd2445dc2",
+      "sourceName": "contracts/tokens/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/interfaces/IStrategy.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "d06eca8df1723c68c3037c0bf0933676",
+      "sourceName": "contracts/interfaces/IStrategy.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "IStrategy"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/BasicMetaTransaction.sol": {
+      "lastModificationDate": 1647835430605,
+      "contentHash": "ffd23df8d701dd8c1e652d76ae0dccf5",
+      "sourceName": "contracts/BasicMetaTransaction.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BasicMetaTransaction"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/examples/DegenVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "72f740c6869427f71d399662500d608a",
+      "sourceName": "contracts/examples/DegenVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BaseVault.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "DegenVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/examples/DaoVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "d0cef68249c5b00ed39d9853a964a640",
+      "sourceName": "contracts/examples/DaoVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BaseVault.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "DaoVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/examples/CharityVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "6df2d3d06f246d3ab25e1c259d8ed495",
+      "sourceName": "contracts/examples/CharityVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BaseVault.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "CharityVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/VaultFactory.sol": {
+      "lastModificationDate": 1647835430605,
+      "contentHash": "6dacc4f5fd742f01b08e3ba1d0ff260b",
+      "sourceName": "contracts/VaultFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IStrategy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Strat",
+        "Vault",
+        "VaultFactory"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/tokens/MockERC20.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "f621d6038b8355c3c92ec249a2d31433",
+      "sourceName": "contracts/tokens/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/strategies/ExampleYearnStrat.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "b735e57f30e5eeba6012794e6a1da30a",
+      "sourceName": "contracts/strategies/ExampleYearnStrat.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IYearnVault.sol",
+        "../tokens/ERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "YearnStrategy"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/interfaces/IYearnVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "e0173e4db61864594b615d15bf18f7e1",
+      "sourceName": "contracts/interfaces/IYearnVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "IYearnVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/tokens/MockYearnVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "4ad5b06cb40c4d5a8395907ee71383e7",
+      "sourceName": "contracts/tokens/MockYearnVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IYearnVault.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "MockYearnVault"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/strategies/ExampleAaveStrat.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "c1e0109cfef643f779ec48a615b93ce2",
+      "sourceName": "contracts/strategies/ExampleAaveStrat.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../tokens/ERC20.sol",
+        "../interfaces/IAavePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "AaveStrategy"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/interfaces/IAavePool.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "1548efdb08732112d4bb89a9663c907c",
+      "sourceName": "contracts/interfaces/IAavePool.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "IPool"
+      ]
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/controllers/DAOMultisig.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "48119f44935c29e67b4d4c533b935212",
+      "sourceName": "contracts/controllers/DAOMultisig.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/controllers/PDelegateDAOController.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "550e4deeaf52b0bb9d7e4c5ec4ffef1c",
+      "sourceName": "contracts/controllers/PDelegateDAOController.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/examples/SuperFluidVault.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "d3fa68a166daddbe6a392f0966c2ce26",
+      "sourceName": "contracts/examples/SuperFluidVault.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/interfaces/INftDataGenerator.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "89bbd90ec8dc89c108ae1c242f1944ee",
+      "sourceName": "contracts/interfaces/INftDataGenerator.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/strategies/ExampleElementStart.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/strategies/ExampleElementStart.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/home/nutty/Desktop/Community/Vaults/hardhat/contracts/strategies/ExampleTrueStrat.sol": {
+      "lastModificationDate": 1647835420185,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/strategies/ExampleTrueStrat.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    }
+  }
+}
