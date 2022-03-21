@@ -57,6 +57,7 @@ task("deploy-all", "Deploy All Contracts")
     const BaseVault =  await ethers.getContractFactory("BaseVault");
     const baseVault = await BaseVault.deploy();
 
+    // set base vault impl to index 1
     vaultFactory.setVImpl(1, baseVault.address);
 
     /*****************************/
@@ -98,7 +99,7 @@ task("deploy-all", "Deploy All Contracts")
 
     console.log("Were Here!");
     
-    // const sampleVault = await vaultFactory.vaults("0x05a60f2ddefcb64e51f5b916bcf7020cf04802e63920d07f62018446638007e0");
+    const sampleVault = await vaultFactory.vaults("0x05a60f2ddefcb64e51f5b916bcf7020cf04802e63920d07f62018446638007e0");
 
     console.log("sample vault is", sampleVault);
     console.log(
